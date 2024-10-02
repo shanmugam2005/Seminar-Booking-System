@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Hall Bookings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                    h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 600px; /* Adjust width as needed */
+        }
+
+        .dept {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px; /* Increased width */
+            height: 150px; /* Increased height */
+            margin: 15px;
+            background-color: #f2f2f2;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Added shadow for better appearance */
+        }
+
+        .dept:hover {
+            background-color: #ddd; /* Hover effect */
+        }
+
+        .dept a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px; /* Increased font size */
+            font-weight: bold;
+        }
+    </style>
+        
+    </head>
+    <body>
+        <h1>Hall Booking</h1>
+    <div class="container">
+    <a href="cse.jsp" class="dept">CSE</a>
+    <a href="ece.jsp" class="dept">ECE</a>
+    <a href="aids.jsp" class="dept">AIDS</a>
+    <a href="MECH.jsp" class="dept">MECH</a>
+    <a href="civil.jsp" class="dept">CIVIL</a>
+    <a href="eee.jsp"  class="dept">EEE</a>
+    <a href="sh.jsp"  class="dept">S&H</a>
+    <a href="it.jsp" class="dept">IT</a>
+    <a href="aa.jsp"  class="dept">AA</a>
+</div>
+</body>
+
+</html>
